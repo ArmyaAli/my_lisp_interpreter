@@ -1,7 +1,7 @@
 INC   = include/
 LIBS  = 
 FLAGS = -O1 -Wall -std=c99 -Wno-missing-braces
-FILES =	chapters/chapter4/main.c 
+FILES =	chapters/chapter6/main.c mpc.c
 
 build:
 	gcc $(FILES) -o output/main.exe $(FLAGS)  -I include/ -L lib/ $(LIBS)
